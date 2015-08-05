@@ -8,9 +8,9 @@ public class yukuo3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Scanner scn=new Scanner(System.in);
-        System.out.println("½Ð¿é¤JA­È");
+        System.out.println("è«‹è¼¸å…¥Aå€¼");
         int a = scn.nextInt();
-        System.out.println("½Ð¿é¤JB­È");
+        System.out.println("è«‹è¼¸å…¥Bå€¼");
         int b = scn.nextInt();
         if(a>b){
         System.out.println(a+">"+b);
