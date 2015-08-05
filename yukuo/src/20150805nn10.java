@@ -5,14 +5,14 @@ public class y20150805n10 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Scanner scn = new Scanner(System.in);
-        System.out.println("½Ð¿é¤J¤W¾Ç´Áªº¾Ç¤À");
+        System.out.println("è«‹è¼¸å…¥ä¸Šå­¸æœŸçš„å­¸åˆ†");
         int a = scn.nextInt();
-        System.out.println("½Ð¿é¤J¤U¾Ç´Áªº¾Ç¤À");
+        System.out.println("è«‹è¼¸å…¥ä¸‹å­¸æœŸçš„å­¸åˆ†");
         int b = scn.nextInt();
         if(a+b>=22){
-        	System.out.println("¦b¾Ç");
+        	System.out.println("åœ¨å­¸");
         }else{
-        	System.out.println("°h¾Ç");
+        	System.out.println("é€€å­¸");
         
         }
 	}
