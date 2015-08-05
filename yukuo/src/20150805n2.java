@@ -5,7 +5,7 @@ public class y20150805n2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Scanner scn=new Scanner(System.in);
-        System.out.println("½Ð¿é¤J¦¨ÁZ");
+        System.out.println("è«‹è¼¸å…¥æˆç¸¾");
         int s = scn.nextInt();
         if(s>97){
         	System.out.println("A+");
