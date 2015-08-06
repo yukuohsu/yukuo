@@ -5,7 +5,7 @@ public class y20150806n5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
-		System.out.println("�п�J13");
+		System.out.println("請輸入13");
 		int a = scn.nextInt();
 		int i;
 		int sum=0;
