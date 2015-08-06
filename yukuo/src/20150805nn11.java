@@ -5,27 +5,27 @@ public class y20150805nn11 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Scanner scn = new Scanner(System.in);
-        System.out.println("½Ğ¿é¤J¶¼®Æ©±¦WºÙ");
+        System.out.println("è«‹è¼¸å…¥é£²æ–™åº—åç¨±");
         String s = scn.next();
-        System.out.println("½Ğ¿é¤J¶¼®Æ");
+        System.out.println("è«‹è¼¸å…¥é£²æ–™");
         String d = scn.next();
-        System.out.println("½Ğ¿é¤J»ù¿ú");
+        System.out.println("è«‹è¼¸å…¥åƒ¹éŒ¢");
         int c = scn.nextInt();
         
-        if(s.equals("¤­¤Q´P")){
-        	System.out.println("¤£³Ü");
+        if(s.equals("äº”ååµ")){
+        	System.out.println("ä¸å–");
         }else if(c<=45){
         switch(d){
-        case "©@°Ø":
-        	System.out.println("³Ü");
+        case "å’–å•¡":
+        	System.out.println("å–");
         	break ;
-        case "ºñ¯ù":
-        	System.out.println("³Ü");
+        case "ç¶ èŒ¶":
+        	System.out.println("å–");
         	break ;
         }
         	
         }else{
-        	System.out.println("¤£³Ü");
+        	System.out.println("ä¸å–");
         	
         }
 	}
