@@ -7,24 +7,27 @@ public class y20150805nn11 {
         Scanner scn = new Scanner(System.in);
         System.out.println("請輸入飲料店名稱");
         String s = scn.next();
-        System.out.println("請輸入飲料 1=綠茶，2=咖啡");
-        int d = scn.nextInt();
+        System.out.println("請輸入飲料");
+        String d = scn.next();
         System.out.println("請輸入價錢");
         int c = scn.nextInt();
         
         if(s.equals("五十嵐")){
         	System.out.println("不喝");
+        }else if(c<=45){
+        switch(d){
+        case "咖啡":
+        	System.out.println("喝");
+        	break ;
+        case "綠茶":
+        	System.out.println("喝");
+        	break ;
+        }
+        	
         }else{
-        	if(d==1 || d==2){
-        		System.out.println("喝");
-        	}else{
-        		if(c<=45){
-        			System.out.println("喝");
-        		}else{
-        			System.out.println("不喝");
-        		}
-        	}
+        	System.out.println("不喝");
+        	
         }
 	}
-
 }
+        
