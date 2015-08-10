@@ -8,11 +8,11 @@ public class y20150810n2 {
 		int w = 390;
 		int m = 0;
 		while(w<500){
-			System.out.println("³o­Ó¤p®ÉÀx¤F¦h¤Ö¤½¾·¤ô?");
+			System.out.println("é€™å€‹å°æ™‚å„²äº†å¤šå°‘è¬å…¬å™¸æ°´?");
 			int a = scn.nextInt();
 			w=w+a;
 			m++;
 		}
-		System.out.println("¨È¬w¤ô®wªá¤F"+m+"­Ó¤ëÀx¦s¨ì500¸U¤½¾·¤ô¡A²{¦b¤ô¶q¬°"+w+"¤½¾·");
+		System.out.println("äºžæ´²æ°´åº«èŠ±äº†"+m+"å€‹å°æ™‚å„²å­˜åˆ°500è¬å…¬å™¸æ°´ï¼Œç¾åœ¨æ°´é‡ç‚º"+w+"è¬å…¬å™¸");
 		}
 	}
