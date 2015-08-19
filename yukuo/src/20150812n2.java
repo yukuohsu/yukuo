@@ -8,7 +8,7 @@ public class y20150812n2 {
 		System.out.println("請輸入一正整數");
 		int a = scn.nextInt();
 		int i;
-		long sum=1;
+		int sum=1;
 		for(i=1;i<=a;i++){
 		sum=sum*i;
 		}
