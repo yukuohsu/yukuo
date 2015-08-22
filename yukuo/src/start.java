@@ -9,9 +9,9 @@ public class start extends JFrame {
 	private JLabel jlb2 = new JLabel();
 	private JPanel jp = new JPanel();
 	private Container cp;
-	private String str = "½Ð¶}©l¤U´Ñ";
+	private String str = "è«‹é–‹å§‹ä¸‹æ£‹";
 
-	static ImageIcon pic[] = new ImageIcon[3]; // «Ø¥ßImageIcon°}¦C
+	static ImageIcon pic[] = new ImageIcon[3]; // Â«Ã˜Â¥ÃŸImageIconÂ°}Â¦C
 
 	public start() {
 		initComp();
