@@ -5,7 +5,6 @@ public class NEW {
 		// TODO Auto-generated method stub
 		FRAME mFrm= new FRAME();
 		mFrm.setVisible(true);
-		
 
 	}
 
